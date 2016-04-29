@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE3416C51CD4167C00BE2B5F /* test1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3416C41CD4167C00BE2B5F /* test1.cpp */; };
-		BE9B1A881CD41BB700CA12DA /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE9B1A871CD41BB700CA12DA /* test2.cpp */; };
+		BE9B1A881CD41BB700CA12DA /* mergesort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE9B1A871CD41BB700CA12DA /* mergesort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +36,7 @@
 		BE3416AD1CD15FB900BE2B5F /* C++MultithreadingPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++MultithreadingPractice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3416BD1CD4166100BE2B5F /* MultithreadingTesting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MultithreadingTesting; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3416C41CD4167C00BE2B5F /* test1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test1.cpp; sourceTree = "<group>"; };
-		BE9B1A871CD41BB700CA12DA /* test2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test2.cpp; path = "C++MultithreadedMergesort/test2.cpp"; sourceTree = SOURCE_ROOT; };
+		BE9B1A871CD41BB700CA12DA /* mergesort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mergesort.cpp; path = "C++MultithreadedMergesort/mergesort.cpp"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		BE3416AF1CD15FB900BE2B5F /* C++MultithreadedMergesort */ = {
 			isa = PBXGroup;
 			children = (
-				BE9B1A871CD41BB700CA12DA /* test2.cpp */,
+				BE9B1A871CD41BB700CA12DA /* mergesort.cpp */,
 			);
 			name = "C++MultithreadedMergesort";
 			path = "C++test";
@@ -169,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9B1A881CD41BB700CA12DA /* test2.cpp in Sources */,
+				BE9B1A881CD41BB700CA12DA /* mergesort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
