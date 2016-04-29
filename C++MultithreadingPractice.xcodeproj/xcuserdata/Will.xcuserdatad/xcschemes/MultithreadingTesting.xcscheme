@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE3416AC1CD15FB900BE2B5F"
-               BuildableName = "C++test"
-               BlueprintName = "C++test"
-               ReferencedContainer = "container:C++test.xcodeproj">
+               BlueprintIdentifier = "BE3416BC1CD4166100BE2B5F"
+               BuildableName = "MultithreadingTesting"
+               BlueprintName = "MultithreadingTesting"
+               ReferencedContainer = "container:C++MultithreadingPractice.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BE3416AC1CD15FB900BE2B5F"
-            BuildableName = "C++test"
-            BlueprintName = "C++test"
-            ReferencedContainer = "container:C++test.xcodeproj">
+            BlueprintIdentifier = "BE3416BC1CD4166100BE2B5F"
+            BuildableName = "MultithreadingTesting"
+            BlueprintName = "MultithreadingTesting"
+            ReferencedContainer = "container:C++MultithreadingPractice.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BE3416AC1CD15FB900BE2B5F"
-            BuildableName = "C++test"
-            BlueprintName = "C++test"
-            ReferencedContainer = "container:C++test.xcodeproj">
+            BlueprintIdentifier = "BE3416BC1CD4166100BE2B5F"
+            BuildableName = "MultithreadingTesting"
+            BlueprintName = "MultithreadingTesting"
+            ReferencedContainer = "container:C++MultithreadingPractice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BE3416AC1CD15FB900BE2B5F"
-            BuildableName = "C++test"
-            BlueprintName = "C++test"
-            ReferencedContainer = "container:C++test.xcodeproj">
+            BlueprintIdentifier = "BE3416BC1CD4166100BE2B5F"
+            BuildableName = "MultithreadingTesting"
+            BlueprintName = "MultithreadingTesting"
+            ReferencedContainer = "container:C++MultithreadingPractice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

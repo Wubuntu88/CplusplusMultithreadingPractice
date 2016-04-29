@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE3416B11CD15FB900BE2B5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3416B01CD15FB900BE2B5F /* main.cpp */; };
+		BE3416C51CD4167C00BE2B5F /* test1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3416C41CD4167C00BE2B5F /* test1.cpp */; };
+		BE9B1A881CD41BB700CA12DA /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE9B1A871CD41BB700CA12DA /* test2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +21,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		BE3416BB1CD4166100BE2B5F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BE3416AD1CD15FB900BE2B5F /* C++test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++test"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE3416B01CD15FB900BE2B5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BE3416AD1CD15FB900BE2B5F /* C++MultithreadingPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++MultithreadingPractice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3416BD1CD4166100BE2B5F /* MultithreadingTesting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MultithreadingTesting; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3416C41CD4167C00BE2B5F /* test1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test1.cpp; sourceTree = "<group>"; };
+		BE9B1A871CD41BB700CA12DA /* test2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test2.cpp; path = "C++MultithreadedMergesort/test2.cpp"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE3416AA1CD15FB900BE2B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3416BA1CD4166100BE2B5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,7 +60,8 @@
 		BE3416A41CD15FB900BE2B5F = {
 			isa = PBXGroup;
 			children = (
-				BE3416AF1CD15FB900BE2B5F /* C++test */,
+				BE3416AF1CD15FB900BE2B5F /* C++MultithreadedMergesort */,
+				BE3416BE1CD4166100BE2B5F /* MultithreadingTesting */,
 				BE3416AE1CD15FB900BE2B5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +69,35 @@
 		BE3416AE1CD15FB900BE2B5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE3416AD1CD15FB900BE2B5F /* C++test */,
+				BE3416AD1CD15FB900BE2B5F /* C++MultithreadingPractice */,
+				BE3416BD1CD4166100BE2B5F /* MultithreadingTesting */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE3416AF1CD15FB900BE2B5F /* C++test */ = {
+		BE3416AF1CD15FB900BE2B5F /* C++MultithreadedMergesort */ = {
 			isa = PBXGroup;
 			children = (
-				BE3416B01CD15FB900BE2B5F /* main.cpp */,
+				BE9B1A871CD41BB700CA12DA /* test2.cpp */,
 			);
+			name = "C++MultithreadedMergesort";
 			path = "C++test";
+			sourceTree = "<group>";
+		};
+		BE3416BE1CD4166100BE2B5F /* MultithreadingTesting */ = {
+			isa = PBXGroup;
+			children = (
+				BE3416C41CD4167C00BE2B5F /* test1.cpp */,
+			);
+			path = MultithreadingTesting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE3416AC1CD15FB900BE2B5F /* C++test */ = {
+		BE3416AC1CD15FB900BE2B5F /* C++MultithreadingPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE3416B41CD15FB900BE2B5F /* Build configuration list for PBXNativeTarget "C++test" */;
+			buildConfigurationList = BE3416B41CD15FB900BE2B5F /* Build configuration list for PBXNativeTarget "C++MultithreadingPractice" */;
 			buildPhases = (
 				BE3416A91CD15FB900BE2B5F /* Sources */,
 				BE3416AA1CD15FB900BE2B5F /* Frameworks */,
@@ -77,9 +107,26 @@
 			);
 			dependencies = (
 			);
-			name = "C++test";
+			name = "C++MultithreadingPractice";
 			productName = "C++test";
-			productReference = BE3416AD1CD15FB900BE2B5F /* C++test */;
+			productReference = BE3416AD1CD15FB900BE2B5F /* C++MultithreadingPractice */;
+			productType = "com.apple.product-type.tool";
+		};
+		BE3416BC1CD4166100BE2B5F /* MultithreadingTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3416C11CD4166100BE2B5F /* Build configuration list for PBXNativeTarget "MultithreadingTesting" */;
+			buildPhases = (
+				BE3416B91CD4166100BE2B5F /* Sources */,
+				BE3416BA1CD4166100BE2B5F /* Frameworks */,
+				BE3416BB1CD4166100BE2B5F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultithreadingTesting;
+			productName = MultithreadingTesting;
+			productReference = BE3416BD1CD4166100BE2B5F /* MultithreadingTesting */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -94,9 +141,12 @@
 					BE3416AC1CD15FB900BE2B5F = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					BE3416BC1CD4166100BE2B5F = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
-			buildConfigurationList = BE3416A81CD15FB900BE2B5F /* Build configuration list for PBXProject "C++test" */;
+			buildConfigurationList = BE3416A81CD15FB900BE2B5F /* Build configuration list for PBXProject "C++MultithreadingPractice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +158,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE3416AC1CD15FB900BE2B5F /* C++test */,
+				BE3416AC1CD15FB900BE2B5F /* C++MultithreadingPractice */,
+				BE3416BC1CD4166100BE2B5F /* MultithreadingTesting */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3416B11CD15FB900BE2B5F /* main.cpp in Sources */,
+				BE9B1A881CD41BB700CA12DA /* test2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3416B91CD4166100BE2B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3416C51CD4167C00BE2B5F /* test1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,11 +268,25 @@
 		BE3416B51CD15FB900BE2B5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "C++MultithreadingPractice";
 			};
 			name = Debug;
 		};
 		BE3416B61CD15FB900BE2B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "C++MultithreadingPractice";
+			};
+			name = Release;
+		};
+		BE3416C21CD4166100BE2B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE3416C31CD4166100BE2B5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -223,7 +296,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE3416A81CD15FB900BE2B5F /* Build configuration list for PBXProject "C++test" */ = {
+		BE3416A81CD15FB900BE2B5F /* Build configuration list for PBXProject "C++MultithreadingPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE3416B21CD15FB900BE2B5F /* Debug */,
@@ -232,13 +305,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE3416B41CD15FB900BE2B5F /* Build configuration list for PBXNativeTarget "C++test" */ = {
+		BE3416B41CD15FB900BE2B5F /* Build configuration list for PBXNativeTarget "C++MultithreadingPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE3416B51CD15FB900BE2B5F /* Debug */,
 				BE3416B61CD15FB900BE2B5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3416C11CD4166100BE2B5F /* Build configuration list for PBXNativeTarget "MultithreadingTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3416C21CD4166100BE2B5F /* Debug */,
+				BE3416C31CD4166100BE2B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

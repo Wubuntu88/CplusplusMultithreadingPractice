@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:C++test.xcodeproj">
+      location = "self:/Users/Will/Documents/Developer/C++test/C++MultithreadingPractice.xcodeproj">
    </FileRef>
 </Workspace>
