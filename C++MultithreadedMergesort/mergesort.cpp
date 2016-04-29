@@ -103,7 +103,7 @@ void *mergeSort(void *input){
 }
 
 int main(int argc, const char * argv[]) {
-    int size = 2000;
+    int size = atoi(argv[1]);
     vector<int> v;
     for (int i = size; i > 0; i--) {
         v.push_back(i);
