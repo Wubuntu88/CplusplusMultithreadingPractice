@@ -87,7 +87,7 @@ void *recursiveMergeSort(void * input){
         selectionSort(arrInfo->vec);
     }
     merge(&subArrayInfos[0], &subArrayInfos[1]);
-    
+    pthread_exit(NULL);
     return 0;
 }
 
