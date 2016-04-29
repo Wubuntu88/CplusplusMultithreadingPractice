@@ -5,3 +5,5 @@ To run the program, type: ./a.out <nElems to be sorted>
 For example:
 ./a.out 2000
 (This will sort 2000 items)
+To compile on Ubuntu, try this:
+g++ -pthread mergesort.cpp
